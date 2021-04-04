@@ -36,7 +36,7 @@ public class InterfaceView {
 				+ "6.Caracteres especiais: ! @ # $% & *");
 	
 	}public void messegerWrongPassword () {
-		System.out.printf("Senha inválida");
+		System.out.printf("Senha inválida ");
 	
 	}
 	
