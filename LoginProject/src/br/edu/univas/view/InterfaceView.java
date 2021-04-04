@@ -1,43 +1,47 @@
 package br.edu.univas.view;
 
-//import javax.swing.JOptionPane;
-
 public class InterfaceView {
 	
 	public void printHomeMenu () {
 		System.out.println("TELA INICIAL\n"
 				+ "1 - Logar usuário\n"
 				+ "2 - Cadastrar usuário\n"
-				+ "3 - Sair\n\n");
+				+ "9 - Sair\n");
 		
 	}public void printMessegerUser() {
-		System.out.print("Informe o nome do usuário: ");
+		System.out.print("Informe o nome de usuário: ");
 		
 	}public void printMessegerPassword() {
 		System.out.print("Digite a senha: ");
-		
-//	}public void printMenuPopUp () {
-//		String menu = JOptionPane.showInputDialog("SENHA\n"
-//				+ "1.Tamanho minimo da senha\n"
-//				+ "2.Tamanho máximo da senha\n"
-//				+ "3.Letras maiusculas\n"
-//				+ "4.Letras minusculas\n"
-//				+ "5.Números\n"
-//				+ "6.Caracteres especiais: ! @ # $% & *");
-//		System.out.println(menu);
-	
+			
 	}public void printMenu () {
-		System.out.println("SENHA\n"
+		System.out.println("\nSENHA\n"
 				+ "1.Tamanho minimo da senha 8 \n"
 				+ "2.Tamanho máximo da senha 32\n"
 				+ "3.Letras maiusculas\n"
 				+ "4.Letras minusculas\n"
 				+ "5.Números\n"
-				+ "6.Caracteres especiais: ! @ # $% & *");
+				+ "6.Caracteres especiais: ! @ # $ % & *\n");
 	
 	}public void messegerWrongPassword () {
-		System.out.printf("Senha inválida ");
+		System.out.printf("Senha inválida\n");
 	
+	}public void messegerUserLogin () {
+		System.out.printf("\nLOGIN\n"
+				+ "Usário: ");
+		
+	}public void messegerPasswordLogin () {
+		System.out.println("Senha: ");
+	
+	}public void messegerWrongUser () {
+		System.out.println("Usuário inválido");
+	
+	}public void printLoginSucess () {
+		System.out.println("Usuário Logado");
+		
+	}public void wrongOption () {
+		System.out.println("Opção errada\n"
+				+ "Selecione novamente.");
 	}
 	
 }
