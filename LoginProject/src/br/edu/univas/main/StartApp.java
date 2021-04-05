@@ -101,8 +101,7 @@ public class StartApp {
 	
 	}public static boolean passwordUpperCase () {
 		for (char i : login.getPassword().toCharArray()) {
-//			if (i >= 'A' && i <= 'Z') {
-			if (i >= 'A') {
+			if (i >= 'A' && i <= 'Z') {
 				return true;
 			}
 		}
@@ -110,8 +109,7 @@ public class StartApp {
 		
 	}public static boolean passwordLowerCase () {
 		for (char i : login.getPassword().toCharArray()) {
-//			if (i >= 'a' && i <= 'z') {
-			if (i >= 'a') {
+			if (i >= 'a' && i <= 'z') {
 				return true;
 			}
 		}
@@ -119,8 +117,7 @@ public class StartApp {
 		
 	}public static boolean passwordNumberCase () {
 		for (char i : login.getPassword().toCharArray()) {
-//			if (i >= '1' && i <= '9') {
-			if (i >= '1') {
+			if (i >= '0' && i <= '9') {
 				return true;
 			}
 		}
